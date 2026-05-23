@@ -49,6 +49,7 @@ export const globalCss = `
     .rl-process-grid { grid-template-columns: repeat(2, 1fr) !important; }
     .rl-step::after { display: none !important; }
     .rl-loans-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    .rl-dsa-grid { grid-template-columns: repeat(2, 1fr) !important; }
     .rl-footer-grid { grid-template-columns: repeat(2, 1fr) !important; }
     .rl-testi-grid { grid-template-columns: 1fr !important; }
   }
@@ -57,6 +58,7 @@ export const globalCss = `
     .rl-nav-cta { display: none !important; }
     .rl-float-stage { height: 440px !important; }
     .rl-loans-grid { grid-template-columns: 1fr !important; }
+    .rl-dsa-grid { grid-template-columns: 1fr !important; }
     .rl-process-grid { grid-template-columns: 1fr !important; }
     .rl-footer-grid { grid-template-columns: 1fr !important; }
     .rl-stats-grid { grid-template-columns: 1fr !important; }

@@ -5,6 +5,7 @@ import { tokens, EASE } from "../../constants/tokens";
 const NAV_LINKS = [
   { label: "Loans", href: "#loans" },
   { label: "How It Works", href: "#process" },
+  { label: "DSA Partner Registration", href: "#dsa-partner" },
   { label: "About", href: "#about" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "FAQ", href: "#faq" },

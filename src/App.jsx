@@ -12,6 +12,7 @@ import About from "./components/sections/About";
 import Testimonials from "./components/sections/Testimonials";
 import FAQ from "./components/sections/FAQ";
 import CTABanner from "./components/sections/CTABanner";
+import DSAPartner from "./components/sections/DSAPartner";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
         <Stats />
         <LoanTypes />
         {/* <Process /> */}
+        <DSAPartner />
         <About />
         <Testimonials />
         <FAQ />

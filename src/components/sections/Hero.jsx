@@ -168,7 +168,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 1.35, ease: EASE }}
           >
-            {["Personal Loans", "Home Loans", "Business Loans", "Vehicle Loans", "Gold Loans"].map((c) => (
+            {["Personal Loans", "Home Loans", "Business Loans", "Vehicle Loans"].map((c) => (
               <React.Fragment key={c}>
                 <strong style={s.catStrong}>{c}</strong>
                 <span style={s.catSep}>•</span>
