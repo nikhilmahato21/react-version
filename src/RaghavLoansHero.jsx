@@ -184,7 +184,11 @@ export default function RaghavLoansHero() {
             <a key={l} href="#" style={styles.navLink}>{l}</a>
           ))}
         </div>
-        <motion.button style={styles.navCta} whileHover={{ y: -1, boxShadow: "0 8px 22px rgba(246,241,231,0.2)" }}>
+        <motion.button
+          style={styles.navCta}
+          className="rl-nav-cta"
+          whileHover={{ y: -1, boxShadow: "0 8px 22px rgba(246,241,231,0.2)" }}
+        >
           Apply Now →
         </motion.button>
       </nav>
@@ -677,6 +681,7 @@ const globalCss = `
     .rl-nav-links { display: none !important; }
   }
   @media (max-width: 640px) {
+    .rl-nav-cta { display: none !important; }
     .rl-float-stage { height: 440px !important; }
   }
 `;
