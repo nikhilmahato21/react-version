@@ -58,6 +58,20 @@ const LOANS = [
     ),
   },
   {
+    color: "#38bdf8",
+    name: "Instant Loan",
+    tagline: "Cash in your account — fast",
+    rate: "On approval",
+    amount: "Up to ₹5L",
+    href: "https://instant-pocket-loan.poonawallafincorp.com/?utm_DSA_Code=PKA00192&UTM_Partner_Name=BVALUE&UTM_Partner_Medium=DIGITAL_BL_raghavloans_EL_DSA&UTM_Partner_AgentCode=PFLBVALUE&UTM_Partner_ReferenceID=BVALUEPFL00000001_raghavloans_EL_DSA",
+    features: ["100% online process", "Minimal documentation", "Instant disbursal to bank"],
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
+      </svg>
+    ),
+  },
+  {
     color: "#a78bfa",
     name: "Education Loan",
     tagline: "Invest in your future",
@@ -110,7 +124,9 @@ function LoanCard({ loan, index }) {
       </ul>
 
       <motion.a
-        href="#apply"
+        href={loan.href || "#apply"}
+        target={loan.href ? "_blank" : undefined}
+        rel={loan.href ? "noopener noreferrer" : undefined}
         className="rl-card-cta"
         style={s.cta}
         whileTap={{ scale: 0.97 }}
