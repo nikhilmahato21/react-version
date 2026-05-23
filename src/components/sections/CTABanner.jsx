@@ -31,7 +31,7 @@ export default function CTABanner() {
               Check Eligibility — Free →
             </motion.a>
             <motion.a
-              href="tel:+919876543210"
+              href="tel:+918550046128"
               style={s.btnGhost}
               whileHover={{ background: "rgba(246,241,231,0.08)" }}
             >

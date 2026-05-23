@@ -116,7 +116,7 @@ export default function Footer() {
                   <svg viewBox="0 0 24 24" width={16} height={16} fill="none" stroke={tokens.gold} strokeWidth="2" strokeLinecap="round">
                     <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.07 9.8 19.79 19.79 0 011 1.18 2 2 0 012.98 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.09 7.91A16 16 0 0014.09 17l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
                   </svg>
-                  <span>+91 98765 43210</span>
+                  <span>+91 85500 46128</span>
                 </div>
                 <div style={s.contactItem}>
                   <svg viewBox="0 0 24 24" width={16} height={16} fill="none" stroke={tokens.gold} strokeWidth="2" strokeLinecap="round">

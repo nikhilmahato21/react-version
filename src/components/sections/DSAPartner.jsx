@@ -75,7 +75,9 @@ export default function DSAPartner() {
         <FadeIn delay={0.3}>
           <div style={s.ctaRow}>
             <motion.a
-              href="#apply"
+              href="https://forms.gle/f11P9Vr5Zh8xvjxk6"
+              target="_blank"
+              rel="noreferrer"
               style={s.btnPrimary}
               whileHover={{ y: -2, boxShadow: "0 14px 40px rgba(43,191,124,0.45)" }}
               whileTap={{ scale: 0.97 }}
@@ -83,7 +85,7 @@ export default function DSAPartner() {
               <span>Register as DSA Partner</span><span>→</span>
             </motion.a>
             <motion.a
-              href="tel:+919999999999"
+              href="tel:+918550046128"
               style={s.btnGhost}
               whileHover={{ background: "rgba(246,241,231,0.06)", borderColor: "rgba(246,241,231,0.3)" }}
             >
