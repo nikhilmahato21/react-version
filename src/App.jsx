@@ -23,7 +23,7 @@ export default function App() {
         <Hero />
         <Stats />
         <LoanTypes />
-        <Process />
+        {/* <Process /> */}
         <About />
         <Testimonials />
         <FAQ />
