@@ -274,7 +274,7 @@ const s = {
   brandMeta: { fontFamily: "'JetBrains Mono',monospace", fontSize: 11, letterSpacing: "0.22em", color: tokens.muted, textTransform: "uppercase" },
   brandName: {
     fontFamily: "'Fraunces',serif", fontWeight: 700,
-    fontSize: "clamp(34px,9.5vw,148px)", lineHeight: 0.92, letterSpacing: "-0.045em",
+    fontSize: "clamp(34px,6vw,88px)", lineHeight: 0.92, letterSpacing: "-0.045em",
     marginTop: 8,
     background: "linear-gradient(180deg,#faf5ea 0%,#f6cc7a 45%,#d4a24c 70%,#b8821f 100%)",
     WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent",
